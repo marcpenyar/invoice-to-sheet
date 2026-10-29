@@ -1,0 +1,15 @@
+# Output of each run (the demo sheet lives in demo/ and is committed on purpose)
+out/
+
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# System
+.DS_Store

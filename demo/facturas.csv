@@ -1,0 +1,13 @@
+﻿Archivo;Proveedor;NIF;Número;Fecha;Base;Tipo IVA;Cuota IVA;Tipo retención;Retención;Total;Estado;Motivo
+factura-01.pdf;Papelería Inventada S.L.;B00000018;PI-2026-0007;12/01/2026;184,30;21;38,70;;;223,00;OK;
+factura-02.pdf;Restaurante Ficticio Ejemplo S.L.;B00000026;R-0153;03/02/2026;86,36;10;8,64;;;95,00;OK;
+factura-03.pdf;Librería Imaginaria S.A.;A00000034;L-2026/044;17/02/2026;57,69;4;2,31;;;60,00;OK;
+factura-04.pdf;Locales Inventados S.L.;B00000042;ALQ-2026-03;01/03/2026;950,00;21;199,50;19;180,50;969,00;OK;
+factura-05.pdf;Transportes de Mentira S.A.;A00000059;TM-88412;20/03/2026;1240,00;21;260,40;;;1500,40;OK;
+factura-06.pdf;Reformas Ficticias S.L.;B00000067;RF-0031;02/04/2026;500,00;21;100,00;;;600,00;REVISAR;la cuota de IVA no cuadra: 500,00 al 21 % son 105,00 y la factura dice 100,00
+factura-07.pdf;Limpiezas Imaginarias S.L.;B00000076;LIM-112;15/04/2026;300,00;21;63,00;;;363,00;REVISAR;CIF con el dígito de control mal (B00000076)
+factura-08.pdf;Consultora Inventada S.L.;B00000083;CI-2026-019;;1000,00;21;210,00;;;1210,00;REVISAR;falta la fecha
+factura-09.pdf;Restaurante Ficticio Ejemplo S.L.;B00000026;R-0153;03/02/2026;86,36;10;8,64;;;95,00;REVISAR;repetida: mismo NIF y número que factura-02.pdf
+factura-10.pdf;Imprenta de Ejemplo S.L.;B00000109;IE-0450;05/05/2026;420,00;21;88,20;;;518,20;REVISAR;el total no cuadra: base más IVA menos retención dan 508,20 y la factura dice 518,20
+factura-11.pdf;Mensajería Ficticia S.L.;B00000117;MF-7781;;45,00;21;9,45;;;54,45;REVISAR;fecha imposible o mal escrita: 30/02/2026
+factura-12.pdf;Locales Inventados S.L.;B00000042;ALQ-2026-04;01/04/2026;950,00;21;199,50;19;171,00;978,50;REVISAR;la retención no cuadra: 950,00 al 19 % son 180,50 y la factura dice 171,00

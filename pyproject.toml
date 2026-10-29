@@ -1,0 +1,24 @@
+[project]
+name = "invoice-to-sheet"
+version = "0.1.0"
+description = "Facturas en PDF a una hoja revisable, con reglas fijas y sin IA"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "Marc Peña" }]
+requires-python = ">=3.10"
+dependencies = ["pypdf==6.21.4", "openpyxl==3.1.5"]
+
+[project.scripts]
+invoice-to-sheet = "invoice_to_sheet.cli:main"
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["invoice_to_sheet"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra --strict-markers"

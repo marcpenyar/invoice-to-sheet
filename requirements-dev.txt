@@ -1,0 +1,4 @@
+# Tests and the made-up sample invoices.
+-r requirements.txt
+fpdf2==2.8.9
+pytest==9.2.0
