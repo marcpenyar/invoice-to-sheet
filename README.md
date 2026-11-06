@@ -110,4 +110,4 @@ MIT, Marc Peña 2026. Ver [`LICENSE`](LICENSE).
 
 ## Quién lo ha hecho
 
-Marc Peña, consultor de automatización en Barcelona para gestorías, asesorías y pequeños negocios. Lo que hace está en [marcpenya.com](https://marcpenya.com), y lo que hace para gestorías, en [marcpenya.com/gestorias](https://marcpenya.com/gestorias/).
+Marc Peña, consultor de automatización en Barcelona para pequeños negocios y despachos. Lo que hace está en [marcpenya.com](https://marcpenya.com), y lo que hace para gestorías, en [marcpenya.com/gestorias](https://marcpenya.com/gestorias/).
